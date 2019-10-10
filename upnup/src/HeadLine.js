@@ -8,9 +8,9 @@ export default function HeadLine() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl" style={{ position: 'relative',padding: 0, margin: 0 }}>
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '50vh', margin: '0'}}>
-        <Typography variant="h1" component="h2" gutterBottom style={{ position: 'absolute', width: '100%', bottom:'0', left: '50%', marginLeft: '-25%'}}>
-       Some Crazy Headline About chicago Music
+        <Typography component="div" style={{ display:'flex', justifyContent:'center',  alignItems:'flex-end', backgroundColor: '#cfe8fc', height: '60vh', margin: '0'}}>
+        <Typography variant="h1" component="h2" gutterBottom style={{ position: 'relative'}}>
+       Some Crazy Head
       </Typography>
       </Typography>
       </Container>
